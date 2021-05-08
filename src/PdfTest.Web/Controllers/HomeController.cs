@@ -23,7 +23,7 @@ namespace PdfTest.Web.Controllers
 
         public async Task<IActionResult> Index()
         {
-            return await generatePdf.GetPdf("Views/Home/Index.cshtml", "Hello World");
+            return await generatePdf.GetPdf("Views/Test.cshtml", "Hello World");
         }
 
         public IActionResult Privacy()
